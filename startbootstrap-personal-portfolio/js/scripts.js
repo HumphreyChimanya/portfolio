@@ -1,7 +1,9 @@
-/*!
-* Start Bootstrap - Personal v1.0.1 (https://startbootstrap.com/template-overviews/personal)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-personal/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+const navToggle = document.querySelector('.nav-toggle');
+const navMenu = document.querySelector('.nav-menu');
+
+if (navToggle && navMenu) {
+    navToggle.addEventListener('click', () => {
+        const isOpen = navMenu.classList.toggle('open');
+        navToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+}
