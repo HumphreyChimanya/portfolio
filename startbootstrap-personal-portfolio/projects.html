@@ -1,4 +1,130 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="description" content="Selected work by Humphrey Chimanya." /><title>Work | Humphrey Chimanya</title><link rel="icon" href="assets/favicon.ico" /><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" /><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" /><link href="css/styles.css" rel="stylesheet" /></head>
-<body><nav class="site-nav" aria-label="Main navigation"><div class="shell nav-inner"><a class="brand" href="index.html"><span>HC</span> Humphrey Chimanya</a><button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu"><i class="bi bi-list"></i><span class="visually-hidden">Open navigation</span></button><div class="nav-menu" id="site-menu"><a href="index.html">Home</a><a href="resume.html">Experience</a><a class="active" href="projects.html">Work</a><a class="nav-cta" href="contact.html">Let's talk <i class="bi bi-arrow-up-right"></i></a></div></div></nav>
-<main class="inner-page shell"><header class="page-heading"><p class="eyebrow">Selected work</p><h1>Ideas made<br /><em>tangible.</em></h1><p>A small selection of the questions I’ve explored through software and data.</p></header><section class="project-list"><article class="project-card"><div class="project-index">Machine learning</div><div><h2>Plant disease<br />detection model</h2><p>A computer vision machine learning model that detects and classifies crop leaf diseases, enabling early intervention and helping protect agricultural yields.</p><div class="tag-row"><span>Python</span><span>Computer vision</span><span>Machine learning</span></div></div><div class="project-mark"><i class="bi bi-flower1"></i></div></article><article class="project-card project-card-dark"><div class="project-index">Data practice</div><div><h2>Data into<br />better decisions</h2><p>My analytical practice combines cleaning, statistical analysis, visualisation, and critical thinking to make complex information easier to act on.</p><div class="tag-row"><span>Data cleaning</span><span>SQL</span><span>Visualisation</span></div></div><div class="project-mark"><i class="bi bi-bar-chart-line"></i></div></article></section></main><footer class="site-footer"><div class="shell footer-inner"><span>© 2026 Humphrey Chimanya</span><div><a href="mailto:chimanyahumphrey704@gmail.com">Email</a><a href="https://www.linkedin.com/in/humphrey-chimanya-567961293" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/HumphreyChimanya" target="_blank" rel="noreferrer">GitHub</a></div></div></footer><script src="js/scripts.js"></script></body></html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Selected software and data work by Humphrey Chimanya." />
+    <meta name="theme-color" content="#000000" />
+    <title>Work: Humphrey Chimanya</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&amp;display=swap" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-nav">
+        <div class="wrap nav-inner">
+            <a class="brand" href="index.html">
+                <span class="brand-mark" aria-hidden="true">HC</span>
+                Humphrey Chimanya
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
+            <nav class="nav-menu" id="site-menu" aria-label="Main">
+                <a href="projects.html" aria-current="page">Work</a>
+                <a href="resume.html">Experience</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" class="wrap">
+        <header class="page-head">
+            <h1 class="split">Work that started with a real question.</h1>
+            <p data-reveal style="--d:.5s">Machine learning models, fullstack apps, and data analysis. Everything here has its code on GitHub.</p>
+        </header>
+
+        <div class="filters" role="group" aria-label="Filter projects" data-reveal style="--d:.65s">
+            <button type="button" aria-pressed="true" data-filter="all">All</button>
+            <button type="button" aria-pressed="false" data-filter="ml">Machine learning and AI</button>
+            <button type="button" aria-pressed="false" data-filter="software">Software</button>
+            <button type="button" aria-pressed="false" data-filter="data">Data</button>
+        </div>
+        <p class="visually-hidden" aria-live="polite" id="filter-status"></p>
+
+        <section class="project-list" aria-label="Projects">
+            <article class="project" data-cat="ml" data-reveal>
+                <div>
+                    <p class="kind">Machine learning</p>
+                    <h2>Plant disease detection</h2>
+                </div>
+                <div>
+                    <p>A deep learning model that classifies plant diseases from leaf images, so crop problems can be caught early and managed before they spread.</p>
+                    <ul class="tags" aria-label="Tools"><li>Python</li><li>Deep learning</li><li>Computer vision</li></ul>
+                    <a class="project-link" href="https://github.com/HumphreyChimanya/Plant_Disease_Detection_Notebook" target="_blank" rel="noreferrer">View code on GitHub</a>
+                </div>
+            </article>
+            <article class="project" data-cat="ml" data-reveal>
+                <div>
+                    <p class="kind">Machine learning</p>
+                    <h2>Bank transaction fraud detection</h2>
+                </div>
+                <div>
+                    <p>A notebook that analyses bank transaction data and models which transactions are likely to be fraudulent.</p>
+                    <ul class="tags" aria-label="Tools"><li>Python</li><li>Jupyter</li><li>Classification</li></ul>
+                    <a class="project-link" href="https://github.com/HumphreyChimanya/Bank_Transactions_Fraud_Detection_Notebook" target="_blank" rel="noreferrer">View code on GitHub</a>
+                </div>
+            </article>
+            <article class="project" data-cat="ml" data-reveal>
+                <div>
+                    <p class="kind">Artificial intelligence</p>
+                    <h2>Maze and tic-tac-toe AI</h2>
+                </div>
+                <div>
+                    <p>Console agents that solve mazes and play tic-tac-toe, built to demonstrate search algorithms, heuristic evaluation, reinforcement learning, and adversarial play.</p>
+                    <ul class="tags" aria-label="Tools"><li>Python</li><li>Search algorithms</li><li>Reinforcement learning</li></ul>
+                    <a class="project-link" href="https://github.com/HumphreyChimanya/maze_and_tic_tac_toe_ai" target="_blank" rel="noreferrer">View code on GitHub</a>
+                </div>
+            </article>
+            <article class="project" data-cat="software" data-reveal>
+                <div>
+                    <p class="kind">Fullstack</p>
+                    <h2>Flight planner</h2>
+                </div>
+                <div>
+                    <p>A system inspired by air traffic control for planning flight routes, estimating arrival times, and saving flight plans.</p>
+                    <ul class="tags" aria-label="Tools"><li>TypeScript</li><li>FastAPI</li><li>Python</li></ul>
+                    <a class="project-link" href="https://github.com/HumphreyChimanya/flight_planner" target="_blank" rel="noreferrer">View code on GitHub</a>
+                </div>
+            </article>
+            <article class="project" data-cat="software" data-reveal>
+                <div>
+                    <p class="kind">Mobile app</p>
+                    <h2>SkillSync</h2>
+                </div>
+                <div>
+                    <p>A job finder app where job seekers search and apply for roles and employers post and manage listings, with role-based navigation and a REST API.</p>
+                    <ul class="tags" aria-label="Tools"><li>Flutter</li><li>Dart</li><li>REST API</li></ul>
+                    <a class="project-link" href="https://github.com/HumphreyChimanya/skillsync" target="_blank" rel="noreferrer">View code on GitHub</a>
+                </div>
+            </article>
+            <article class="project" data-cat="data" data-reveal>
+                <div>
+                    <p class="kind">Data analysis</p>
+                    <h2>Geographic data exploration</h2>
+                </div>
+                <div>
+                    <p>An interactive notebook for querying and visualising geographic datasets on AWS S3, including Overture Maps layers and US Census housing data, for the Bias Bounties challenge.</p>
+                    <ul class="tags" aria-label="Tools"><li>Python</li><li>AWS S3</li><li>Geospatial data</li></ul>
+                    <a class="project-link" href="https://github.com/HumphreyChimanya/Bias_Bounty_explore_Challenge" target="_blank" rel="noreferrer">View code on GitHub</a>
+                </div>
+            </article>
+        </section>
+
+        <p class="note">More code is on <a href="https://github.com/HumphreyChimanya" target="_blank" rel="noreferrer">GitHub</a>.</p>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap footer-inner">
+            <span>© 2026 Humphrey Chimanya</span>
+            <nav aria-label="Elsewhere">
+                <a href="https://www.linkedin.com/in/humphrey-chimanya-567961293" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="https://github.com/HumphreyChimanya" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="mailto:chimanyahumphrey704@gmail.com">Email</a>
+            </nav>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
